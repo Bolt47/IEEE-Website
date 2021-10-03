@@ -1,14 +1,3 @@
-$(document).ready(function () {
-
-    $nav = $('.nav');
-    $toggleCollapse = $('.toggle-collapse');
-
-    /** click event on toggle menu */
-    $toggleCollapse.click(function () {
-        $nav.toggleClass('collapse');
-    })
-});
-
 let slidePosition = 0;
 const slides = document.getElementsByClassName('carousel-item');
 const totalSlides = slides.length;
